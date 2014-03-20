@@ -1,0 +1,307 @@
+#===============================================================
+# METODOLOGIA LILACS
+# ==================
+
+# 01 - CÓDIGO DO CENTRO
+1 /OAI-PMH/ListRecords/record/metadata/isis/v1
+
+# 02 - NÚMERO DE IDENTIFICAÇÃO
+2 /OAI-PMH/ListRecords/record/metadata/isis/v2
+
+# 03 - LOCALIZAÇÃO DO DOCUMENTO
+3 /OAI-PMH/ListRecords/record/metadata/isis/v3
+
+# 04 - BASE DE DADOS
+4 /OAI-PMH/ListRecords/record/metadata/isis/v4
+
+# 05 - TIPO DE LITERATURA
+5 /OAI-PMH/ListRecords/record/metadata/isis/v5
+
+# 06 - NÍVEL DE TRATAMENTO
+6 /OAI-PMH/ListRecords/record/metadata/isis/v6
+
+# 07 - TOMBO
+7 /OAI-PMH/ListRecords/record/metadata/isis/v7
+
+# 08 - ENDEREÇO ELETRÔNICO
+8 /OAI-PMH/ListRecords/record/metadata/isis/v8
+
+# 09 - TIPO DE REGISTRO
+9 /OAI-PMH/ListRecords/record/metadata/isis/v9
+
+# 10 - AUTOR PESSOAL (nível analítico)
+10 /OAI-PMH/ListRecords/record/metadata/isis/v10
+
+# 11 - AUTOR INSTITUCIONAL (nível analítico)
+11 /OAI-PMH/ListRecords/record/metadata/isis/v11
+
+# 12 - TÍTULO (nível analítico)
+12 /OAI-PMH/ListRecords/record/metadata/isis/v12
+
+# 13 - TÍTULO TRADUZIDO PARA O INGLÊS (nível analítico)
+13 /OAI-PMH/ListRecords/record/metadata/isis/v13
+
+# 14 - PÁGINAS (nível analítico)
+14 /OAI-PMH/ListRecords/record/metadata/isis/v14
+
+# 16 - AUTOR PESSOAL (nível monográfico)
+16 /OAI-PMH/ListRecords/record/metadata/isis/v16
+
+# 17 - AUTOR INSTITUCIONAL (nível monográfico)
+17 /OAI-PMH/ListRecords/record/metadata/isis/v17
+
+# 18 - TÍTULO (nível monográfico)
+18 /OAI-PMH/ListRecords/record/metadata/isis/v18
+
+# 19 - TÍTULO TRADUZIDO PARA O INGLÊS (nível monográfico)
+19 /OAI-PMH/ListRecords/record/metadata/isis/v19
+
+# 20 - PÁGINAS (nível monográfico)
+20 /OAI-PMH/ListRecords/record/metadata/isis/v20
+
+# 21 - VOLUME (nível monográfico)
+21 /OAI-PMH/ListRecords/record/metadata/isis/v21
+
+# 23 - AUTOR PESSOAL (nível coleção)
+23 /OAI-PMH/ListRecords/record/metadata/isis/v23
+
+# 24 - AUTOR INSTITUCIONAL (nível coleção)
+24 /OAI-PMH/ListRecords/record/metadata/isis/v24
+
+# 25 - TÍTULO (nível coleção)
+25 /OAI-PMH/ListRecords/record/metadata/isis/v25
+
+# 26 - TÍTULO TRADUZIDO PARA O INGLÊS (nível coleção)
+26 /OAI-PMH/ListRecords/record/metadata/isis/v26
+
+# 27 - NÚMERO TOTAL DE VOLUMES (nível coleção)
+27 /OAI-PMH/ListRecords/record/metadata/isis/v27
+
+# 30 - TÍTULO (nível série)
+30 /OAI-PMH/ListRecords/record/metadata/isis/v30
+
+# 31 - VOLUME (nível série)
+31 /OAI-PMH/ListRecords/record/metadata/isis/v31
+
+# 32 - NÚMERO DO FASCÍCULO (nível série)
+32 /OAI-PMH/ListRecords/record/metadata/isis/v32
+
+# 35 - ISSN
+35 /OAI-PMH/ListRecords/record/metadata/isis/v35
+
+# 38 - INFORMAÇÃO DESCRITIVA
+38 /OAI-PMH/ListRecords/record/metadata/isis/v38
+
+# 40 - IDIOMA DO TEXTO
+40 /OAI-PMH/ListRecords/record/metadata/isis/v40
+
+# 49 - TESE, DISSERTAÇÃO - ORIENTADOR
+49 /OAI-PMH/ListRecords/record/metadata/isis/v49
+
+# 50 - TESE, DISSERTAÇÃO - INSTITUIÇÃO À QUAL SE APRESENTA
+50 /OAI-PMH/ListRecords/record/metadata/isis/v50
+
+# 51 - TESE, DISSERTAÇÃO - TÍTULO ACADÊMICO
+51 /OAI-PMH/ListRecords/record/metadata/isis/v51
+
+# 52 - EVENTO - INSTITUIÇÃO PATROCINADORA
+52 /OAI-PMH/ListRecords/record/metadata/isis/v52
+
+# 53 - EVENTO - NOME
+53 /OAI-PMH/ListRecords/record/metadata/isis/v53
+
+# 54 - EVENTO - DATA
+54 /OAI-PMH/ListRecords/record/metadata/isis/v54
+
+# 55 - EVENTO - DATA NORMALIZADA
+55 /OAI-PMH/ListRecords/record/metadata/isis/v55
+
+# 56 - EVENTO - CIDADE
+56 /OAI-PMH/ListRecords/record/metadata/isis/v56
+
+# 57 - EVENTO - PAÍS
+57 /OAI-PMH/ListRecords/record/metadata/isis/v57
+
+# 58 - PROJETO - INSTITUIÇÃO PATROCINADORA
+58 /OAI-PMH/ListRecords/record/metadata/isis/v58
+
+# 59 - PROJETO - NOME
+59 /OAI-PMH/ListRecords/record/metadata/isis/v59
+
+# 60 - PROJETO - NÚMERO
+60 /OAI-PMH/ListRecords/record/metadata/isis/v60
+
+# 61 - NOTA INTERNA
+61 /OAI-PMH/ListRecords/record/metadata/isis/v61
+
+# 62 - EDITORA
+62 /OAI-PMH/ListRecords/record/metadata/isis/v62
+
+# 63 - EDIÇÃO
+63 /OAI-PMH/ListRecords/record/metadata/isis/v63
+
+# 64 - DATA DE PUBLICAÇÃO
+64 /OAI-PMH/ListRecords/record/metadata/isis/v64
+
+# 65 - DATA NORMALIZADA
+65 /OAI-PMH/ListRecords/record/metadata/isis/v65
+
+# 66 - CIDADE DE PUBLICAÇÃO
+66 /OAI-PMH/ListRecords/record/metadata/isis/v66
+
+# 67 - PAÍS DE PUBLICAÇÃO
+67 /OAI-PMH/ListRecords/record/metadata/isis/v67
+
+# 68 - SÍMBOLO
+68 /OAI-PMH/ListRecords/record/metadata/isis/v68
+
+# 69 - ISBN
+69 /OAI-PMH/ListRecords/record/metadata/isis/v69
+
+# 71 - TIPO DE PUBLICAÇÃO
+71 /OAI-PMH/ListRecords/record/metadata/isis/v71
+
+# 72 - NÚMERO TOTAL DE REFERÊNCIAS
+72 /OAI-PMH/ListRecords/record/metadata/isis/v72
+
+# 74 - ALCANCE TEMPORAL (DESDE)
+74 /OAI-PMH/ListRecords/record/metadata/isis/v74
+ 
+# 75 - ALCANCE TEMPORAL (ATÉ)
+75 /OAI-PMH/ListRecords/record/metadata/isis/v75
+
+# 76 - DESCRITOR PRÉ-CODIFICADO
+76 /OAI-PMH/ListRecords/record/metadata/isis/v76
+
+# 78 - INDIVÍDUO COMO TEMA
+78 /OAI-PMH/ListRecords/record/metadata/isis/v78
+
+# 82 - REGIÃO NÃO DECS
+82 /OAI-PMH/ListRecords/record/metadata/isis/v82
+
+# 83 - RESUMO
+83 /OAI-PMH/ListRecords/record/metadata/isis/v83
+
+# 84 - DATA DA TRANSFERÊNCIA PARA A BASE DE DADOS
+84 /OAI-PMH/ListRecords/record/metadata/isis/v84
+
+# 85 - PALAVRAS-CHAVE DO AUTOR
+85 /OAI-PMH/ListRecords/record/metadata/isis/v85
+
+# 87 - DESCRITOR PRIMÁRIO
+87 /OAI-PMH/ListRecords/record/metadata/isis/v87
+
+# 88 - DESCRITOR SECUNDÁRIO
+88 /OAI-PMH/ListRecords/record/metadata/isis/v88
+
+# 91 - DATA DA CRIAÇÃO DO REGISTRO
+91 /OAI-PMH/ListRecords/record/metadata/isis/v91
+
+# 92 - DOCUMENTALISTA
+92 /OAI-PMH/ListRecords/record/metadata/isis/v92
+
+# 93 - DATA DA ÚLTIMA MODIFICAÇÃO
+93 /OAI-PMH/ListRecords/record/metadata/isis/v93
+
+# 98 - REGISTRO COMPLEMENTAR (MONOGRAFIA, NÃO CONVENCIONAL, COLEÇÃO, SÉRIE OU TESE, DISSERTAÇÃO)
+98 /OAI-PMH/ListRecords/record/metadata/isis/v98
+
+# 101 - REGISTRO COMPLEMENTAR (EVENTO)
+101 /OAI-PMH/ListRecords/record/metadata/isis/v101
+
+# 102 - REGISTRO COMPLEMENTAR (PROJETO)
+102 /OAI-PMH/ListRecords/record/metadata/isis/v102
+
+# 110 - FORMA DO ÍTEM
+110 /OAI-PMH/ListRecords/record/metadata/isis/v110
+
+# 111 - TIPO DE ARQUIVO DE COMPUTADOR
+111 /OAI-PMH/ListRecords/record/metadata/isis/v111
+
+# 112 - TIPO DE MATERIAL CARTOGRÁFICO
+112 /OAI-PMH/ListRecords/record/metadata/isis/v112
+
+# 113 - TIPO DE PERIÓDICO
+113 /OAI-PMH/ListRecords/record/metadata/isis/v113
+
+# 114 - TIPO DE MATERIAL VISUAL
+114 /OAI-PMH/ListRecords/record/metadata/isis/v114
+
+# 115 - DESIGNAÇÃO ESPECÍFICA DO MATERIAL (MATERIAL NÃO PROJETÁVEL)
+115 /OAI-PMH/ListRecords/record/metadata/isis/v115
+
+# 500 - NOTA GERAL
+500 /OAI-PMH/ListRecords/record/metadata/isis/v500
+
+# 505 - NOTA FORMATADA DE CONTEÚDO
+505 /OAI-PMH/ListRecords/record/metadata/isis/v505
+
+# 530 - NOTA DE DISPONIBILIDADE DE FORMA FÍSICA ADICIONAL
+530 /OAI-PMH/ListRecords/record/metadata/isis/v530
+
+# 533 - NOTA DE REPRODUÇÃO
+533 /OAI-PMH/ListRecords/record/metadata/isis/v533
+
+# 534 - NOTA DE VERSÃO ORIGINAL
+534 /OAI-PMH/ListRecords/record/metadata/isis/v534
+
+# 610 - INSTITUIÇÃO COMO TEM
+610 /OAI-PMH/ListRecords/record/metadata/isis/v610
+
+# 653 - DESCRITORES LOCAIS
+653 /OAI-PMH/ListRecords/record/metadata/isis/v653
+
+# 700 - NOME DO REGISTRO DE ENSAIO CLÍNICO
+700 /OAI-PMH/ListRecords/record/metadata/isis/v700
+
+# 724 - NÚMERO DOI
+724 /OAI-PMH/ListRecords/record/metadata/isis/v724
+
+# 899 - VERSÃO DO SOFTWARE
+899 /OAI-PMH/ListRecords/record/metadata/isis/v899
+
+# 41 - IDIOMA DO RESUMO
+41 /OAI-PMH/ListRecords/record/metadata/isis/v41
+
+# 42 - DISSEMINAÇÃO DA INFORMAÇÃO
+42 /OAI-PMH/ListRecords/record/metadata/isis/v42
+
+# 43 - IMPRESSÃO
+43 /OAI-PMH/ListRecords/record/metadata/isis/v43
+
+# 73 - ALCANCE TEMPORAL
+73 /OAI-PMH/ListRecords/record/metadata/isis/v73
+
+# 77 - DESCRITOR
+77 /OAI-PMH/ListRecords/record/metadata/isis/v77
+
+# 79 - CATEGORIA TEMÁTICA
+79 /OAI-PMH/ListRecords/record/metadata/isis/v79
+
+# 80 - PAÍSES OU REGIÕES PRIMÁRIAS
+80 /OAI-PMH/ListRecords/record/metadata/isis/v80
+
+# 81 - PAÍSES OU REGIÕES SECUNDÁRIAS
+81 /OAI-PMH/ListRecords/record/metadata/isis/v81
+
+# 90 - DISPONIBILIDADE DO DOCUMENTO
+90 /OAI-PMH/ListRecords/record/metadata/isis/v90
+
+# 93 - DATAS DE ENVIO, RECEPÇÃO E REVISÃO FINAL
+93 /OAI-PMH/ListRecords/record/metadata/isis/v93
+
+# 103 - REGISTRO COMPLEMENTAR (TESE)
+103 /OAI-PMH/ListRecords/record/metadata/isis/v103
+
+# 870 - ÁREA TEMÁTICA DA BVS
+870 /OAI-PMH/ListRecords/record/metadata/isis/v870
+
+# 70 - COCHRANE
+70 /OAI-PMH/ListRecords/record/metadata/isis/v70
+
+# 777 - NÚMERO DE IDENTIFICAÇÃO ORIGINAL DO CENTRO COOPERANTE
+777 /OAI-PMH/ListRecords/record/metadata/isis/v777
+
+# 778 - IDENTIFICADOR DE REGISTRO LILACS
+778 /OAI-PMH/ListRecords/record/metadata/isis/v778
+

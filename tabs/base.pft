@@ -1,0 +1,311 @@
+/*
+#===============================================================
+# METODOLOGIA LILACS
+# ==================
+*/
+
+'d*',
+
+/* 01 - CÓDIGO DO CENTRO */
+(if p(v1) then '<1 0>',v1,'</1>' fi),
+
+/* 02 - NÚMERO DE IDENTIFICAÇÃO */
+(if p(v2) then '<2 0>',v2,'</2>' fi),
+
+/* 03 - LOCALIZAÇÃO DO DOCUMENTO */
+(if p(v3) then '<3 0>',v3,'</3>' fi),
+
+/* 04 - BASE DE DADOS */
+(if p(v4) then '<4 0>',v4,'</4>' fi),
+
+/* 05 - TIPO DE LITERATURA */
+(if p(v5) then '<5 0>',v5,'</5>' fi),
+
+/* 06 - NÍVEL DE TRATAMENTO */
+(if p(v6) then '<6 0>',v6,'</6>' fi),
+
+/* 07 - TOMBO */
+(if p(v7) then '<7 0>',v7,'</7>' fi),
+
+/* 08 - ENDEREÇO ELETRÔNICO */
+(if p(v8) then '<8 0>',v8,'</8>' fi),
+
+/* 09 - TIPO DE REGISTRO */
+(if p(v9) then '<9 0>',v9,'</9>' fi),
+
+/* 10 - AUTOR PESSOAL (nível analítico) */
+(if p(v10) then '<10 0>',v10,'</10>' fi),
+
+/* 101 - REGISTRO COMPLEMENTAR (EVENTO) */
+(if p(v101) then '<101 0>',v101,'</101>' fi),
+
+/* 102 - REGISTRO COMPLEMENTAR (PROJETO) */
+(if p(v102) then '<102 0>',v102,'</102>' fi),
+
+/* 103 - REGISTRO COMPLEMENTAR (TESE) */
+(if p(v103) then '<103 0>',v103,'</103>' fi),
+
+/* 11 - AUTOR INSTITUCIONAL (nível analítico) */
+(if p(v11) then '<11 0>',v11,'</11>' fi),
+
+/* 110 - FORMA DO ÍTEM */
+(if p(v110) then '<110 0>',v110,'</110>' fi),
+
+/* 111 - TIPO DE ARQUIVO DE COMPUTADOR */
+(if p(v111) then '<111 0>',v111,'</111>' fi),
+
+/* 112 - TIPO DE MATERIAL CARTOGRÁFICO */
+(if p(v112) then '<112 0>',v112,'</112>' fi),
+
+/* 113 - TIPO DE PERIÓDICO */
+(if p(v113) then '<113 0>',v113,'</113>' fi),
+
+/* 114 - TIPO DE MATERIAL VISUAL */
+(if p(v114) then '<114 0>',v114,'</114>' fi),
+
+/* 115 - DESIGNAÇÃO ESPECÍFICA DO MATERIAL (MATERIAL NÃO PROJETÁVEL) */
+(if p(v115) then '<115 0>',v115,'</115>' fi),
+
+/* 12 - TÍTULO (nível analítico) */
+(if p(v12) then '<12 0>',v12,'</12>' fi),
+
+/* 13 - TÍTULO TRADUZIDO PARA O INGLÊS (nível analítico) */
+(if p(v13) then '<13 0>',v13,'</13>' fi),
+
+/* 14 - PÁGINAS (nível analítico) */
+(if p(v14) then '<14 0>',v14,'</14>' fi),
+
+/* 16 - AUTOR PESSOAL (nível monográfico) */
+(if p(v16) then '<16 0>',v16,'</16>' fi),
+
+/* 17 - AUTOR INSTITUCIONAL (nível monográfico) */
+(if p(v17) then '<17 0>',v17,'</17>' fi),
+
+/* 18 - TÍTULO (nível monográfico) */
+(if p(v18) then '<18 0>',v18,'</18>' fi),
+
+/* 19 - TÍTULO TRADUZIDO PARA O INGLÊS (nível monográfico) */
+(if p(v19) then '<19 0>',v19,'</19>' fi),
+
+/* 20 - PÁGINAS (nível monográfico) */
+(if p(v20) then '<20 0>',v20,'</20>' fi),
+
+/* 21 - VOLUME (nível monográfico) */
+(if p(v21) then '<21 0>',v21,'</21>' fi),
+
+/* 23 - AUTOR PESSOAL (nível coleção) */
+(if p(v23) then '<23 0>',v23,'</23>' fi),
+
+/* 24 - AUTOR INSTITUCIONAL (nível coleção) */
+(if p(v24) then '<24 0>',v24,'</24>' fi),
+
+/* 25 - TÍTULO (nível coleção) */
+(if p(v25) then '<25 0>',v25,'</25>' fi),
+
+/* 26 - TÍTULO TRADUZIDO PARA O INGLÊS (nível coleção) */
+(if p(v26) then '<26 0>',v26,'</26>' fi),
+
+/* 27 - NÚMERO TOTAL DE VOLUMES (nível coleção) */
+(if p(v27) then '<27 0>',v27,'</27>' fi),
+
+/* 30 - TÍTULO (nível série) */
+(if p(v30) then '<30 0>',v30,'</30>' fi),
+
+/* 31 - VOLUME (nível série) */
+(if p(v31) then '<31 0>',v31,'</31>' fi),
+
+/* 32 - NÚMERO DO FASCÍCULO (nível série) */
+(if p(v32) then '<32 0>',v32,'</32>' fi),
+
+/* 35 - ISSN */
+(if p(v35) then '<35 0>',v35,'</35>' fi),
+
+/* 38 - INFORMAÇÃO DESCRITIVA */
+(if p(v38) then '<38 0>',v38,'</38>' fi),
+
+/* 40 - IDIOMA DO TEXTO */
+(if p(v40) then '<40 0>',v40,'</40>' fi),
+
+/* 41 - IDIOMA DO RESUMO */
+(if p(v41) then '<41 0>',v41,'</41>' fi),
+
+/* 42 - DISSEMINAÇÃO DA INFORMAÇÃO */
+(if p(v42) then '<42 0>',v42,'</42>' fi),
+
+/* 43 - IMPRESSÃO */
+(if p(v43) then '<43 0>',v43,'</43>' fi),
+
+/* 49 - TESE, DISSERTAÇÃO - ORIENTADOR */
+(if p(v49) then '<49 0>',v49,'</49>' fi),
+
+/* 50 - TESE, DISSERTAÇÃO - INSTITUIÇÃO À QUAL SE APRESENTA */
+(if p(v50) then '<50 0>',v50,'</50>' fi),
+
+/* 500 - NOTA GERAL */
+(if p(v500) then '<500 0>',v500,'</500>' fi),
+
+/* 505 - NOTA FORMATADA DE CONTEÚDO */
+(if p(v505) then '<505 0>',v505,'</505>' fi),
+
+/* 51 - TESE, DISSERTAÇÃO - TÍTULO ACADÊMICO */
+(if p(v51) then '<51 0>',v51,'</51>' fi),
+
+/* 52 - EVENTO - INSTITUIÇÃO PATROCINADORA */
+(if p(v52) then '<52 0>',v52,'</52>' fi),
+
+/* 53 - EVENTO - NOME */
+(if p(v53) then '<53 0>',v53,'</53>' fi),
+
+/* 530 - NOTA DE DISPONIBILIDADE DE FORMA FÍSICA ADICIONAL */
+(if p(v530) then '<530 0>',v530,'</530>' fi),
+
+/* 533 - NOTA DE REPRODUÇÃO */
+(if p(v533) then '<533 0>',v533,'</533>' fi),
+
+/* 534 - NOTA DE VERSÃO ORIGINAL */
+(if p(v534) then '<534 0>',v534,'</534>' fi),
+
+/* 54 - EVENTO - DATA */
+(if p(v54) then '<54 0>',v54,'</54>' fi),
+
+/* 55 - EVENTO - DATA NORMALIZADA */
+(if p(v55) then '<55 0>',v55,'</55>' fi),
+
+/* 56 - EVENTO - CIDADE */
+(if p(v56) then '<56 0>',v56,'</56>' fi),
+
+/* 57 - EVENTO - PAÍS */
+(if p(v57) then '<57 0>',v57,'</57>' fi),
+
+/* 58 - PROJETO - INSTITUIÇÃO PATROCINADORA */
+(if p(v58) then '<58 0>',v58,'</58>' fi),
+
+/* 59 - PROJETO - NOME */
+(if p(v59) then '<59 0>',v59,'</59>' fi),
+
+/* 60 - PROJETO - NÚMERO */
+(if p(v60) then '<60 0>',v60,'</60>' fi),
+
+/* 61 - NOTA INTERNA */
+(if p(v61) then '<61 0>',v61,'</61>' fi),
+
+/* 610 - INSTITUIÇÃO COMO TEM */
+(if p(v610) then '<610 0>',v610,'</610>' fi),
+
+/* 62 - EDITORA */
+(if p(v62) then '<62 0>',v62,'</62>' fi),
+
+/* 63 - EDIÇÃO */
+(if p(v63) then '<63 0>',v63,'</63>' fi),
+
+/* 64 - DATA DE PUBLICAÇÃO */
+(if p(v64) then '<64 0>',v64,'</64>' fi),
+
+/* 65 - DATA NORMALIZADA */
+(if p(v65) then '<65 0>',v65,'</65>' fi),
+
+/* 653 - DESCRITORES LOCAIS */
+(if p(v653) then '<653 0>',v653,'</653>' fi),
+
+/* 66 - CIDADE DE PUBLICAÇÃO */
+(if p(v66) then '<66 0>',v66,'</66>' fi),
+
+/* 67 - PAÍS DE PUBLICAÇÃO */
+(if p(v67) then '<67 0>',v67,'</67>' fi),
+
+/* 68 - SÍMBOLO */
+(if p(v68) then '<68 0>',v68,'</68>' fi),
+
+/* 69 - ISBN */
+(if p(v69) then '<69 0>',v69,'</69>' fi),
+
+/* 70 - COCHRANE */
+(if p(v70) then '<70 0>',v70,'</70>' fi),
+
+/* 700 - NOME DO REGISTRO DE ENSAIO CLÍNICO */
+(if p(v700) then '<700 0>',v700,'</700>' fi),
+
+/* 71 - TIPO DE PUBLICAÇÃO */
+(if p(v71) then '<71 0>',v71,'</71>' fi),
+
+/* 72 - NÚMERO TOTAL DE REFERÊNCIAS */
+(if p(v72) then '<72 0>',v72,'</72>' fi),
+
+/* 724 - NÚMERO DOI */
+(if p(v724) then '<724 0>',v724,'</724>' fi),
+
+/* 73 - ALCANCE TEMPORAL */
+(if p(v73) then '<73 0>',v73,'</73>' fi),
+
+/* 74 - ALCANCE TEMPORAL (DESDE) */
+(if p(v74) then '<74 0>',v74,'</74>' fi),
+
+/* 75 - ALCANCE TEMPORAL (ATÉ) */
+(if p(v75) then '<75 0>',v75,'</75>' fi),
+
+/* 76 - DESCRITOR PRÉ-CODIFICADO */
+(if p(v76) then '<76 0>',v76,'</76>' fi),
+
+/* 77 - DESCRITOR */
+(if p(v77) then '<77 0>',v77,'</77>' fi),
+
+/* 777 - NÚMERO DE IDENTIFICAÇÃO ORIGINAL DO CENTRO COOPERANTE */
+(if p(v777) then '<777 0>',v777,'</777>' fi),
+
+/* 778 - IDENTIFICADOR DE REGISTRO LILACS */
+(if p(v778) then '<778 0>',v778,'</778>' fi),
+
+/* 78 - INDIVÍDUO COMO TEMA */
+(if p(v78) then '<78 0>',v78,'</78>' fi),
+
+/* 79 - CATEGORIA TEMÁTICA */
+(if p(v79) then '<79 0>',v79,'</79>' fi),
+
+/* 80 - PAÍSES OU REGIÕES PRIMÁRIAS */
+(if p(v80) then '<80 0>',v80,'</80>' fi),
+
+/* 81 - PAÍSES OU REGIÕES SECUNDÁRIAS */
+(if p(v81) then '<81 0>',v81,'</81>' fi),
+
+/* 82 - REGIÃO NÃO DECS */
+(if p(v82) then '<82 0>',v82,'</82>' fi),
+
+/* 83 - RESUMO */
+(if p(v83) then '<83 0>',v83,'</83>' fi),
+
+/* 84 - DATA DA TRANSFERÊNCIA PARA A BASE DE DADOS */
+(if p(v84) then '<84 0>',v84,'</84>' fi),
+
+/* 85 - PALAVRAS-CHAVE DO AUTOR */
+(if p(v85) then '<85 0>',v85,'</85>' fi),
+
+/* 87 - DESCRITOR PRIMÁRIO */
+(if p(v87) then '<87 0>',v87,'</87>' fi),
+
+/* 870 - ÁREA TEMÁTICA DA BVS */
+(if p(v870) then '<870 0>',v870,'</870>' fi),
+
+/* 88 - DESCRITOR SECUNDÁRIO */
+(if p(v88) then '<88 0>',v88,'</88>' fi),
+
+/* 899 - VERSÃO DO SOFTWARE */
+(if p(v899) then '<899 0>',v899,'</899>' fi),
+
+/* 90 - DISPONIBILIDADE DO DOCUMENTO */
+(if p(v90) then '<90 0>',v90,'</90>' fi),
+
+/* 91 - DATA DA CRIAÇÃO DO REGISTRO */
+(if p(v91) then '<91 0>',v91,'</91>' fi),
+
+/* 92 - DOCUMENTALISTA */
+(if p(v92) then '<92 0>',v92,'</92>' fi),
+
+/* 93 - DATA DA ÚLTIMA MODIFICAÇÃO */
+(if p(v93) then '<93 0>',v93,'</93>' fi),
+
+/* 93 - DATAS DE ENVIO, RECEPÇÃO E REVISÃO FINAL */
+(if p(v93) then '<93 0>',v93,'</93>' fi),
+
+/* 98 - REGISTRO COMPLEMENTAR (MONOGRAFIA, NÃO CONVENCIONAL, COLEÇÃO, SÉRIE OU TESE, DISSERTAÇÃO) */
+(if p(v98) then '<98 0>',v98,'</98>' fi),
+
